@@ -2,6 +2,7 @@ import requests
 import json 
 
 #requests simple
+#este funcion en general muestra los personajes y su status actualizado.
 
 url= "https://rickandmortyapi.com/api/character/200"
 r=requests.get(url)
@@ -21,3 +22,7 @@ while 1 < 11:
     status = j['status']
     print ('El personaje {} tiene status : {}'.format(name,status))
     i+=1
+
+
+
+    
